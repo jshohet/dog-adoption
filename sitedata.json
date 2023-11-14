@@ -1,0 +1,128 @@
+[
+  {
+    "Id":"1",
+    "Name": "Lucy",
+    "Age": "3",
+    "Breed": "Blue Nose Pitbull",
+    "largeImage": "img/bluepit.jpg",
+    "largeImageAlt": "A blue-nosed pitbull enjoying the outdoors.",
+    "description": "Lucy is a 3 year old blue nose pitbull. She loves to run, tear up couches, and play fetch."
+  },
+  {
+    "Id": "2",
+    "Name": "Gerald",
+    "Age": "1.5",
+    "Breed": "Border Collie",
+    "largeImage": "img/bordercollie.jpg",
+    "largeImageAlt": "A border collie with his tongue hanging out in an attempt to cool himself off.",
+    "description": "Gerald is a very active young border collie. She loves her stuffed bear to death (literally)."
+  },
+  {
+    "Id": "3",
+    "Name": "Peanut",
+    "Age": "0.5",
+    "Breed": "Blue Nose Pitbull baby",
+    "largeImage": "img/bluepitpuppy.jpg",
+    "largeImageAlt": "A blue nose pitbull puppy.",
+    "description": "Peanut is a blue nose pitbull puppy. She is house-trained for her age and will only go inside rarely."
+  },
+  {
+    "Id": "4",
+    "Name": "Bork",
+    "Age": "4",
+    "Breed": "Bulldog",
+    "largeImage": "img/bulldog.jpg",
+    "largeImageAlt": "A bulldog happily staring into the camera.",
+    "description": "Bork is a 4 year old bulldog. He enjoys sleeping, cuddling, and eating."
+  },
+  {
+    "Id": "5",
+    "Name": "Baxter",
+    "Age": "2",
+    "Breed": "Siberian Husky",
+    "largeImage": "img/husky.jpg",
+    "largeImageAlt": "A siberian husky smiling at the camera.",
+    "description": "Baxter is a 2 year old husky. Chasing squirrels is his favorite pasttime."
+  },
+  {
+    "Id": "6",
+    "Name": "Caldon",
+    "Age": "2.5",
+    "Breed": "Newfoundland",
+    "largeImage": "img/newfie.jpg",
+    "largeImageAlt": "A newfoundland enjoying the day.",
+    "description": "Caldon is a 2.5 year old newfoundland. She enjoys sleeping a lot."
+  },
+  {
+    "Id": "7",
+    "Name": "Bowen",
+    "Age": "1.5",
+    "Breed": "Pomeranian",
+    "largeImage": "img/pomeranian.jpg",
+    "largeImageAlt": "A pomeranian smiling at the camera.",
+    "description": "Bowen is a 1.5 year old pomeranian. She enjoys running around and barking."
+  },
+  {
+    "Id": "8",
+    "Name": "Kate",
+    "Age": "3",
+    "Breed": "Golden Retriever",
+    "largeImage": "img/golden.jpg",
+    "largeImageAlt": "A golden retriever panting at the leaves falling.",
+    "description": "Kate is a 3 year old golden retriever. She enjoys playing catch and jumping into leaf piles."
+  },
+  {
+    "Id": "9",
+    "Name": "Lucky",
+    "Age": "0.75",
+    "Breed": "Golden Retriever Puppy",
+    "largeImage": "img/goldenpuppy.jpg",
+    "largeImageAlt": "A golden retriever puppy smiling for the treat.",
+    "description": "Lucky is an 8 month old golden retriever puppy. He is trying to figure out how to live with all that fur."
+  },
+  {
+    "Id": "10",
+    "Name": "Max",
+    "Age": "5",
+    "Breed": "Dobermann",
+    "largeImage": "img/dobermann.jpg",
+    "largeImageAlt": "A Dobermann panting at the camera.",
+    "description": "Max is a 5 year old Dobermann who still enjoys playing fetch but has been sleeping more often than not these days."
+  },
+  {
+    "Id": "11",
+    "Name": "Cody",
+    "Age": "2",
+    "Breed": "Cockapoo",
+    "largeImage": "img/cockapoo.jpg",
+    "largeImageAlt": "A cockapoo with his eyes closed.",
+    "description": "Cody is a 2 year old cockapoo. Enjoys long walks, even in less than ideal weather."
+  },
+  {
+    "Id": "12",
+    "Name": "Noelle",
+    "Age": "1",
+    "Breed": "Cockapoo",
+    "largeImage": "img/cockapoo2.jpg",
+    "largeImageAlt": "A cockapoo staring at the camera.",
+    "description": "Noelle is a year old cockapoo. She likes chasing squirrels and sitting in your lap."
+  },
+  {
+    "Id": "13",
+    "Name": "Lisa",
+    "Age": "3",
+    "Breed": "German Shepherd",
+    "largeImage": "img/germanshepherd.jpg",
+    "largeImageAlt": "A german shepherd smiling at the camera.",
+    "description": "Lisa is a 3 year old german shepherd. She loves going to the park and swimming."
+  },
+  {
+    "Id": "14",
+    "Name": "Liz",
+    "Age": "6",
+    "Breed": "Labrador Retriever",
+    "largeImage": "img/labradorretriever.jpg",
+    "largeImageAlt": "A labrador retriever staring wistfully into space.",
+    "description": "Liz is a 6 year old labrador retriever with surprisingly more energy than her age would suggest."
+  }
+]

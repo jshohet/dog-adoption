@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Dog Adoption</title>
+  </head>
+  <body>
+    <header id="top">
+      <nav class="big-screen">
+        <a href="#top"><span class="material-symbols-outlined"> pets </span></a>
+        <a href="#search-form">Search for your new best friend</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-us">Contact Us</a>
+      </nav>
+      <div class="small-screen">
+        <button id="small-btn">
+          <span class="material-symbols-outlined"> list </span>
+        </button>
+        <nav class="small-menu">
+          <ul>
+            <li><a href="#search-form">Search for your new best friend</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#top">Back to Top</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1>Welcome to Bianca's Adoption Agency!</h1>
+      <h2>Available puppers:</h2>
+
+      <div id="search-form">
+        <form>
+          <label for="puppy-search">Search by Breed:</label>
+          <input type="text" id="puppy-search" /><br />
+        </form>
+      </div>
+      <div id="puppy-wrapper"></div>
+      <div class="puppy-grid">
+        <div class="puppy-card"></div>
+      </div>
+      <div class="about-us">
+        <h2 id="about-us">About Us</h2>
+        <p>
+          We have been a well-established pet adoption agency since 2003,
+          servicing all local shelters. We have fostered a lot of strays that
+          later get adopted by loving parents such as yourselves. Please
+          consider adopting today and helping these puppies find their forever
+          homes!
+        </p>
+      </div>
+      <div class="contact-us">
+        <h2 id="contact-us">Contact Us</h2>
+        <form
+          action="mailto:recipient@example.com"
+          method="get"
+          enctype="text/plain"
+        >
+          Subject:<br />
+          <input type="text" name="subject" placeholder="Your Name" /><br />
+          Message:<br />
+          <textarea
+            name="body"
+            rows="5"
+            cols="30"
+            placeholder="Your Message"
+          ></textarea
+          ><br />
+          <button type="submit">Send Email</button>
+        </form>
+        <p>Or call us at: <span>(617) 999-1234</span></p>
+      </div>
+      <h2 id="back-to-top"><a href="#top">Back to Top</a></h2>
+    </main>
+    <footer>&copy; 2023 Josef Shohet</footer>
+    <script src="js/app.js"></script>
+    <script>
+      app.homepage();
+    </script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      $('#puppy-search').keyup(function () {
+        /*takes inpt from input box*/
+        var seterm = $('#puppy-search').val();
+        /*scans through each element*/
+        for (var i = 0; i < $('.breed').length; i++) {
+          /*Makes all elements visible*/
+          $('.breed:eq(' + i + ')')
+            .closest('a')
+            .css('display', 'inline-block');
+          /*If it doesn't match the input it is hidden*/
+          if (
+            $('.breed:eq(' + i + ')')
+              .text()
+              .toLowerCase()
+              .indexOf(seterm) < 0
+          ) {
+            $('.breed:eq(' + i + ')')
+              .closest('a')
+              .css('display', 'none');
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

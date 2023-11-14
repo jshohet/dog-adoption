@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+  font-family: 'Poppins', sans-serif;
+  /* background-image: url('../img/pawprints.jpg'); */
+}
+
+.big-screen {
+  background-color: rgb(144, 144, 247);
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.big-screen a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.small-screen {
+  display: none;
+}
+
+.small-menu {
+  position: fixed;
+  margin-top: 9%;
+  margin-left: 2px;
+  background-color: rgb(144, 144, 247);
+  padding-right: 2%;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.small-menu ul {
+  list-style-type: none;
+  padding-left: 5%;  
+  width: 100%;
+
+}
+
+
+.small-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.small-menu a:hover{
+  background-color: green;
+}
+
+#small-btn {
+  position: fixed;
+  background-color: rgb(144, 144, 247);
+  color: white;
+  padding: 0;
+  border: none;
+  font-size: 1rem;
+  
+}
+
+.small-screen button:hover {
+  color: black;
+  background-color: rgb(144, 144, 247);
+}
+
+.small-screen span {
+  font-size: 2rem;
+}
+
+nav a:hover {
+  color: rgb(4, 6, 7);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: rgb(192, 160, 16);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#search-form {
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 2px;
+}
+
+button:hover {
+  transition: all 0.3s ease-in;
+  background-color: rgb(36, 184, 230);
+}
+
+footer {
+  text-align: right;
+}
+
+.about-us {
+  text-align: center;
+}
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.5rem;
+}
+
+.contact-us {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contact-us input {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 2px;
+}
+
+.contact-us textarea {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.contact-us span {
+  color: rgb(153, 39, 230);
+}
+
+#back-to-top a {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+#puppy-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+#puppy-wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+#clickpup {
+  text-decoration: none;
+  color: black;
+}
+
+.pup h3 {
+  text-align: center;
+}
+
+.pup h4 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.pup p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.pup img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  transition: transform 0.25s ease;
+}
+
+.pup img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .big-screen{
+    display: none;
+  }
+
+  .small-screen{
+    display:block;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+  }
+
+  #puppy-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .pup h3 {
+    font-size: 0.86rem;
+  }
+
+  .pup h4 {
+    font-size: 0.8rem;
+  }
+
+  .pup p {
+    font-size: 0.5rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+  }
+
+  .big-screen{
+    display: none;
+  }
+
+  .small-screen{
+    display:block;
+  }
+
+  .small-menu{
+    margin-top: 7%;
+  }
+
+  #puppy-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .pup h3 {
+    font-size: 0.86rem;
+  }
+
+  .pup h4 {
+    font-size: 0.8rem;
+  }
+
+  .pup p {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+  }
+
+  .big-screen{
+    display: block;
+  }
+
+  .big-screen a{
+    text-wrap: nowrap;
+  }
+
+  .small-screen{
+    display: none;
+  }
+
+  .small-menu{
+    margin-top: 8%;
+  }
+
+  #puppy-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .pup h3 {
+    font-size: 0.86rem;
+  }
+
+  .pup h4 {
+    font-size: 0.8rem;
+  }
+
+  .pup p {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

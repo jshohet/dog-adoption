@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+  font-family: 'Poppins', sans-serif;
+  /* background-image: url('../img/pawprints.jpg'); */
+}
+
+nav {
+  background-color: rgb(144, 144, 247);
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 5px;
+}
+
+a {
+    display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.25s ease;
+}
+
+a:hover {
+  transform: translate(5%, 0);
+  color: blueviolet;
+}
+
+span {
+  font-size: 2rem;
+}
+
+footer {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
